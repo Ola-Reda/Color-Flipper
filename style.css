@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary-1: ;
+    --color-primary-2: ;
+    --color-primary-3: ;
+    --color-primary-4: ;
+    --color-primary-5: ;
+    --spacing: 4px; 
+    --shadow: 
+}
+
+body {
+    background-color: hsl(206, 33%, 96%);
+    font-family: 'Roboto', sans-serif;
+}
+
+/*nav*/
+nav {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+nav .nav-box {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav-box h4 {
+    color: hsl(205, 78%, 60%);
+    letter-spacing: 4px;
+}
+
+nav .nav-box ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav .nav-box ul a {
+    text-decoration: none;
+    color: hsl(205, 86%, 17%);
+    margin-right: 20px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    transition: .4s linear;
+}
+
+nav .nav-box ul a:hover {
+    color: hsl(205, 78%, 60%);
+}
+/*nav*/
+
+/*main*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 50px);
+}
+
+main .heading {
+    background-color: #222;
+    color: white;
+    letter-spacing: 4px;
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin-bottom: 40px;
+
+}
+
+main .heading h1 {
+    font-size: 40px;
+}
+
+main .heading h1 span {
+    color: hsl(205, 78%, 60%);
+}
+
+main button {
+    background-color: transparent;
+    color: #222;
+    border: 2px solid #222;
+    border-radius: 10px;
+    padding: 12px 20px;
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: inherit;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: .4s ease-in;
+}
+
+main button:hover {
+    background-color: #222;;
+    color: white;
+}
+/*main*/
