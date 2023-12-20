@@ -75,10 +75,10 @@ main .heading {
     background-color: #222;
     color: white;
     letter-spacing: 4px;
+    text-transform: capitalize;
     border-radius: 8px;
     padding: 12px 15px;
     margin-bottom: 40px;
-
 }
 
 main .heading h1 {
