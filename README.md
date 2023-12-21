@@ -1,5 +1,6 @@
 # Color-Flipper
 
+![Capture](https://github.com/Ola-Reda/Color-Flipper/assets/78170370/dd81307a-3ce1-46e9-a014-9a9d24793359)
 
 ## Live Demo
 
