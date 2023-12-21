@@ -5,13 +5,11 @@
 }
 
 :root {
-    --color-primary-1: ;
-    --color-primary-2: ;
-    --color-primary-3: ;
-    --color-primary-4: ;
-    --color-primary-5: ;
-    --spacing: 4px; 
-    --shadow: 
+    --color-primary-1: hsl(205, 78%, 60%);
+    --color-primary-2: #222;
+    --spacing: 4px;
+    --fisrt-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --second-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 body {
@@ -26,7 +24,7 @@ nav {
     justify-content: center;
     background-color: #fff;
     height: 50px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--fisrt-shadow);
 }
 
 nav .nav-box {
@@ -37,8 +35,8 @@ nav .nav-box {
 }
 
 nav .nav-box h4 {
-    color: hsl(205, 78%, 60%);
-    letter-spacing: 4px;
+    color: var(--color-primary-1);
+    letter-spacing: var(--spacing);
 }
 
 nav .nav-box ul {
@@ -52,13 +50,13 @@ nav .nav-box ul a {
     text-decoration: none;
     color: hsl(205, 86%, 17%);
     margin-right: 20px;
-    letter-spacing: 4px;
+    letter-spacing: var(--spacing);
     font-weight: 600;
     transition: .4s linear;
 }
 
 nav .nav-box ul a:hover {
-    color: hsl(205, 78%, 60%);
+    color: var(--color-primary-1);
 }
 /*nav*/
 
@@ -72,9 +70,9 @@ main {
 }
 
 main .heading {
-    background-color: #222;
+    background-color: var(--color-primary-2);
     color: white;
-    letter-spacing: 4px;
+    letter-spacing: var(--spacing);
     text-transform: capitalize;
     border-radius: 8px;
     padding: 12px 15px;
@@ -86,26 +84,26 @@ main .heading h1 {
 }
 
 main .heading h1 span {
-    color: hsl(205, 78%, 60%);
+    color: var(--color-primary-1);
 }
 
 main button {
     background-color: transparent;
-    color: #222;
-    border: 2px solid #222;
+    color: var(--color-primary-2);
+    border: 2px solid var(--color-primary-2);
     border-radius: 10px;
     padding: 12px 20px;
-    letter-spacing: 4px;
+    letter-spacing: var(--spacing);
     font-size: 15px;
     font-weight: 700;
     font-family: inherit;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--second-shadow);
     cursor: pointer;
     transition: .4s ease-in;
 }
 
 main button:hover {
-    background-color: #222;;
+    background-color: var(--color-primary-2);
     color: white;
 }
 /*main*/
