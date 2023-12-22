@@ -108,4 +108,10 @@ main button:hover {
     background-color: var(--color-primary-2);
     color: white;
 }
+
+@media (max-width: 350px) {
+    main .heading h1 {
+        font-size: 30px;
+    }
+}
 /*main*/
