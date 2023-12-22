@@ -109,9 +109,9 @@ main button:hover {
     color: white;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 576px) {
     main .heading h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 /*main*/
