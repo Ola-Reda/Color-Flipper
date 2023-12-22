@@ -19,7 +19,7 @@ body {
 
 /*nav*/
 nav {
-    display: grid;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: #fff;

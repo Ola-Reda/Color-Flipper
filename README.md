@@ -8,7 +8,7 @@ https://ola-reda.github.io/Color-Flipper/
 
 ### About
 
-Color-Flipper Js project and challenge
+Color-Flipper is Js project and challenge
 
 the challenge was created using HTML, CSS, and JS
 
